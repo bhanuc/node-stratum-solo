@@ -2,6 +2,19 @@
   "name"   : "stratum-solo",
   "description": "SHA256 coins (like Bitcoin) and Scrypt coins (like Litecoin) centralized solo mining pool. This \"pool\" just do the routing between daemons and the miners.",
   "version": "0.0.1",
+  "repository": {
+    "type":"git",
+    "url":"git@github.com:pocesar/node-stratum-solo.git"
+  },
+  "keywords": [
+    "stratum",
+    "mining",
+    "solo mining",
+    "getblocktemplate",
+    "bitcoin",
+    "litecoin",
+    "scrypt"
+  ],
   "dependencies": {
     "stratum": "*"
   },

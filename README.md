@@ -18,7 +18,7 @@ Directly from github (easier):
 git clone git@github.com:pocesar/node-stratum-solo.git
 cd node-stratum-solo
 node .
-``
+```
 
 or through NPM:
 

@@ -90,7 +90,7 @@ var setup = function(type, coin){
       if (coin.daemons[daemon].start()) {
         (function(d){
           console.log('Starting ' + d.name);
-          
+
           d.on('close', function(){
             console.log(d.name + ' process closed');
           });
