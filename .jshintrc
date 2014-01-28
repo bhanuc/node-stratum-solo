@@ -1,0 +1,18 @@
+{
+  "eqeqeq"   : true,
+  "bitwise"  : true,
+  "forin"    : false,
+  "camelcase": true,
+  "indent"   : 2,
+  "undef"    : true,
+  "maxlen"   : 80,
+  "trailing" : true,
+  "curly"    : true,
+  "browser"  : true,
+  "devel"    : true,
+  "globals"  : {
+    "sinon":true,
+    "expect":true
+  },
+  "node"     : true
+}

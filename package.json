@@ -1,0 +1,9 @@
+{
+  "name"   : "stratum-solo",
+  "description": "SHA256 coins (like Bitcoin) and Scrypt coins (like Litecoin) centralized solo mining pool. This \"pool\" just do the routing between daemons and the miners.",
+  "version": "0.0.1",
+  "dependencies": {
+    "stratum": "*"
+  },
+  "main":"index.js"
+}
